@@ -8,13 +8,25 @@
 
 /* Begin PBXFileReference section */
 		F1C4C4572A8D176900F5144E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "00-env/README.md"; sourceTree = "<group>"; };
+		F1C4C4582A8D22C000F5144E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "01-grub/README.md"; sourceTree = "<group>"; };
+		F1C4C45B2A8D250F00F5144E /* boot.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; name = boot.asm; path = "01-grub/boot/boot.asm"; sourceTree = "<group>"; };
+		F1C4C45C2A8D25F000F5144E /* linker.ld */ = {isa = PBXFileReference; lastKnownFileType = text; name = linker.ld; path = "01-grub/cfg/linker.ld"; sourceTree = "<group>"; };
+		F1C4C45D2A8D295D00F5144E /* grub.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; name = grub.cfg; path = "01-grub/cfg/grub.cfg"; sourceTree = "<group>"; };
+		F1C4C45F2A8D2B2700F5144E /* kernel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = kernel.c; path = "01-grub/kernel/kernel.c"; sourceTree = "<group>"; };
+		F1C4C4602A8D2C6600F5144E /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = "01-grub/Makefile"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		F1C4C44C2A8D16F300F5144E = {
 			isa = PBXGroup;
 			children = (
+				F1C4C45B2A8D250F00F5144E /* boot.asm */,
 				F1C4C4572A8D176900F5144E /* README.md */,
+				F1C4C4582A8D22C000F5144E /* README.md */,
+				F1C4C45D2A8D295D00F5144E /* grub.cfg */,
+				F1C4C4602A8D2C6600F5144E /* Makefile */,
+				F1C4C45F2A8D2B2700F5144E /* kernel.c */,
+				F1C4C45C2A8D25F000F5144E /* linker.ld */,
 			);
 			sourceTree = "<group>";
 		};
